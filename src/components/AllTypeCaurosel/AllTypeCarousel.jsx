@@ -32,9 +32,9 @@ const AllTypeCarousel = () => {
 
         // }}
         modules={[Keyboard, Scrollbar, Navigation, Pagination]}
-        className="mySwiper hide-navigation ]"
+        className="mySwiper hide-navigation flex justify-between items-end "
       >
-        <SwiperSlide>
+        <SwiperSlide className="">
           <div className="col-span-2 ml-28">
             <p className=" mb-5 ">For the Skin</p>
             <h3 className="  text-3xl mb-10">Attention For All Types </h3>
@@ -51,8 +51,14 @@ const AllTypeCarousel = () => {
             </button>
           </div>
         </SwiperSlide>
-        <SwiperSlide className=" flex flex-col items-center justify-center">
-          <img src="https://www.aesop.com/u1nb1km7t5q7/LL8pUKUiuq1n8mKKpLdbb/b41e1d77b6dfeca7632d6677ee232fcb/Aesop-SkinParsley-Seed-Facial-Cleanser-100mL-large.png" />
+
+        <SwiperSlide className=" ">
+         <div className="flex flex-col items-center">
+         <img
+         className=" w-[400px]"
+         src="https://www.aesop.com/u1nb1km7t5q7/LL8pUKUiuq1n8mKKpLdbb/b41e1d77b6dfeca7632d6677ee232fcb/Aesop-SkinParsley-Seed-Facial-Cleanser-100mL-large.png"
+       />
+         </div>
           <div className="flex flex-col justify-center items-center">
             <p>Lucent Facial Concentrate</p>
             <p className="font-semibold mt-3 hover: underline ">
@@ -61,8 +67,11 @@ const AllTypeCarousel = () => {
           </div>
         </SwiperSlide>
 
-        <SwiperSlide>
-          <img  src="https://www.aesop.com/u1nb1km7t5q7/4DGsDcDdfO5dcxxkckH0Vz/ff15e75ea0734ffa3273513bda5a40d2/Aesop_Skin_Purifying_Facial_Cream_Cleanser_100mL_Web_Large_843x1000px.png" />
+        <SwiperSlide className=" ">
+          <div className="flex flex-col items-center ">
+          <img  className="w-[400px]"
+          src="https://www.aesop.com/u1nb1km7t5q7/4DGsDcDdfO5dcxxkckH0Vz/ff15e75ea0734ffa3273513bda5a40d2/Aesop_Skin_Purifying_Facial_Cream_Cleanser_100mL_Web_Large_843x1000px.png" />
+          </div>
           <div className="flex flex-col justify-center items-center">
             <p>Lucent Facial Concentrate</p>
             <p className="font-semibold mt-3 hover: underline ">
@@ -70,8 +79,10 @@ const AllTypeCarousel = () => {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://www.aesop.com/u1nb1km7t5q7/5EM8cNCKUmSUw5Ad9vg3d1/73b569f7bcb04bafc22cd73e519d3f2a/Aesop-Skin-Camellia-Nut-Facial-Hydrating-Cream-60mL-large.png" />
+        <SwiperSlide className=" h-[400px]">
+          <div className="flex flex-col items-center h-full">
+          <img  className=" object-cover" src="https://www.aesop.com/u1nb1km7t5q7/5EM8cNCKUmSUw5Ad9vg3d1/73b569f7bcb04bafc22cd73e519d3f2a/Aesop-Skin-Camellia-Nut-Facial-Hydrating-Cream-60mL-large.png" />
+          </div>
           <div className="flex flex-col justify-center items-center">
             <p>Lucent Facial Concentrate</p>
             <p className="font-semibold mt-3 hover: underline ">

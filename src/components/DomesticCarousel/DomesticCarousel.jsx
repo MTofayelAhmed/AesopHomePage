@@ -37,7 +37,7 @@ const AllTypeCarousel = () => {
         className="mySwiper hide-navigation ]"
       >
         <SwiperSlide>
-          <div className="col-span-2 ml-28">
+          <div className=" ml-28">
             <p className="  mb-5 ">For the Home</p>
             <h3 className=" font-semibold text-3xl mb-10">Domestic Pleasures </h3>
             <p className="mb-5">

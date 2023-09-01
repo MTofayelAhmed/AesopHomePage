@@ -52,7 +52,7 @@ const CareCarousel = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className=" flex flex-col items-center justify-center">
-          <img src="https://www.aesop.com/u1nb1km7t5q7/2YWbdNlnJHD3t3zF4arNfK/4d9d61c34d4ef151f41defd952535345/Aesop_Body_Nurture_Bar_Soap_150g_Web_Front_Large_1800x1093px.png" />
+          <img className=" object-cover" src="https://www.aesop.com/u1nb1km7t5q7/2YWbdNlnJHD3t3zF4arNfK/4d9d61c34d4ef151f41defd952535345/Aesop_Body_Nurture_Bar_Soap_150g_Web_Front_Large_1800x1093px.png" />
           <div className="flex flex-col justify-center items-center">
             <p>Lucent Facial Concentrate</p>
             <p className="font-semibold mt-3 hover: underline ">

@@ -5,7 +5,7 @@ const ReadingRoom = () => {
     <div className=" grid grid-cols-5 pt-48">
       <div className="col-span-2 ml-28">
         <p className=" font-semibold mb-10 ">The Athenaeum</p>
-        <h3 className=" font-semibold text-3xl mb-10">The warm-up </h3>
+        <h3 className=" text-3xl mb-10">The warm-up </h3>
         <p className="mb-10">
           In The Athenaeum, our digital reading room: a guide to <br /> ensuring
           a healthy complexion through the warmer <br />

@@ -1,0 +1,24 @@
+.hide-navigation .swiper-button-next,
+.hide-navigation .swiper-button-prev {
+  display: none;
+
+}
+
+
+
+.hide-navigation:hover .swiper-button-next,
+.hide-navigation:hover .swiper-button-prev {
+  display: block;
+  
+  background: #000;
+  color: white; 
+
+ 
+
+
+}
+
+
+
+
+
